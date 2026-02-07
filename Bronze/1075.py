@@ -1,10 +1,10 @@
 import sys
 input = sys.stdin.readline
 
-N = (input())
+N = int(input())
 F = int(input())
 
-N = int(N[:-3] + '00')
+N = (N // 100) * 100
 
 x = N % F
 
