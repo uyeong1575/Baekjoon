@@ -2,11 +2,8 @@ import sys
 from collections import deque
 
 input = sys.stdin.readline
-
 N, M = map(int, input().split())
-
 adj = [[] for _ in range(N + 1)]
-
 
 def BFS(start, end, adj):
     dq = deque()
