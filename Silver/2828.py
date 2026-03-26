@@ -23,7 +23,7 @@ for apple in arr:
         diff = left - apple
         left = apple
         right -= diff
-        move_count -= diff
+        move_count += diff
 
 print(move_count)
 
